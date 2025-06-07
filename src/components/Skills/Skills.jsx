@@ -8,29 +8,28 @@ const Skills = () => {
    <section id='skills'>
     <span className='skilltitle'>What I do</span>
     <span className="skilldesc">I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites.
-        I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, and Javascript, as well as design software such as 
-        Adobe Photoshop and Illustrator.
+        I have a strong understanding of design and a keen eye for detail. I am proficient in HTML, CSS, and Javascript, as well as design software .
         </span>
         <div className="skillbars">
             <div className="skillbar">
             <img src={uidesign} alt="" className = 'skillbar-img'/>
             <div className="skillbar-text">
                 <h2>UI/UX design</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa explicabo atque quidem dignissimos, blanditiis voluptatum. Non sunt dolores quaerat id?</p>
+                <p>I specialize in creating user interfaces that are not only visually appealing but also highly intuitive and user-friendly. I focus on user flows, wireframes, and responsive layouts to ensure a seamless experience across all devices.</p>
             </div>
             </div>
         <div className="skillbar">
             <img src={webdesign} alt="" className='skillbar-img'/>
             <div className="skillbar-text">
                 <h2>Website design</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum autem dolor optio, consequuntur impedit harum minus quisquam consectetur a ex.</p>
+                <p>I design and build responsive websites that combine modern design trends with best practices in performance, accessibility, and SEO. From landing pages to complete web platforms, I ensure every project is functional and future-ready.</p>
             </div>
         </div>
         <div className="skillbar">
             <img src={app} alt="" className='skillbar-img'/>
             <div className="skillbar-text">
-                <h2>App design</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sunt asperiores soluta tempore voluptatum illo dolorem, sapiente autem eveniet rem.</p>
+                <h2>Data Structure And Algorithm</h2>
+                <p>I have a strong foundation in data structures and algorithms, which helps me write efficient and optimized code. I regularly solve DSA problems on platforms like LeetCode and GeeksforGeeks, focusing on time and space complexity. My knowledge includes arrays, linked lists, stacks, queues,and more.</p>
             </div>
         </div>
         </div>

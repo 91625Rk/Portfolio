@@ -1,6 +1,5 @@
 import React from "react";
-import "./Intro.css";
-import profile from "../../assets/profile.png";     
+import "./Intro.css";     
 import hireme from "../../assets/hireme.png";
 import { Link } from "react-scroll";
 const Intro = () => {
@@ -9,7 +8,6 @@ const Intro = () => {
       <section className="intro">
         <div className="introcontent">
           <span className="hello">Hello,</span>
-          <br />
           <span className="introtext">
             I'm<span className="introname"> Rohit</span>
             <br />
@@ -27,7 +25,7 @@ const Intro = () => {
           </Link>
         </div>
         <div className="intro-img">
-          <img  alt="" className="profileimg" />
+          <img alt="" className="profileimg" />
         </div>
       </section>
     </>

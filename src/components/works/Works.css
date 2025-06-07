@@ -33,6 +33,14 @@
     height: 20rem;
     margin: 0.5rem;
 }
+.workimg:hover{
+    height: 22rem;
+
+    transition: 0.8s; 
+    transform: scale(1.23);
+     box-shadow: 0 13px 20px rgb(255, 152, 35);
+    cursor: pointer;
+}
 .worksbtn{
     background-color: white;
     color: black;
