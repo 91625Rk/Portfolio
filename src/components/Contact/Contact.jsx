@@ -62,13 +62,13 @@ const Contact = () => {
               type="text"
               className="name"
               placeholder="Your name"
-              name="title"
+              name="from_name"
             />
             <input
               type="email"
               className="email"
               placeholder="Your email"
-              name="email"
+              name="from_email"
             />
             <textarea
               name="message"
@@ -77,7 +77,7 @@ const Contact = () => {
               className="msg"
               placeholder="Your message"
             ></textarea>
-            <button className="submitbtn" value="send">
+            <button   type = "submit" className="submitbtn" value="send">
               {" "}
               Submit
             </button>
