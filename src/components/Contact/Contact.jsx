@@ -1,12 +1,12 @@
 import "./Contact.css";
 import adobe from "../../assets/adobe.png";
 import microsoft from "../../assets/microsoft.png";
-import Facebook from "../../assets/Facebook.png";
-import Walmart from "../../assets/walmart.png";
+import facebook from "../../assets/facebook.png";
+import walmart from "../../assets/walmart.png";
 import facebookicon from "../../assets/facebook-icon.png";
 import twittericon from "../../assets/twitter.png";
-import YoutubeIcon from "../../assets/youtube.png";
-import Instagramicon from "../../assets/instagram.png";
+import youtubeIcon from "../../assets/youtube.png";
+import instagramicon from "../../assets/instagram.png";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 
@@ -40,10 +40,10 @@ const Contact = () => {
               Some of the notable companies I have worked with includes
             </p>
             <div className="clientimgs">
-              <img src={Walmart} alt="clients" className="clientimg" />
+              <img src={walmart} alt="clients" className="clientimg" />
               <img src={adobe} alt="clients" className="clientimg" />
               <img src={microsoft} alt="clients" className="clientimg" />
-              <img src={Facebook} alt="clients" className="clientimg" />
+              <img src={facebook} alt="clients" className="clientimg" />
             </div>
           </div>
           <div id="contact">
@@ -102,14 +102,14 @@ const Contact = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={YoutubeIcon} alt="" className="link" />
+                <img src={youtubeIcon} alt="" className="link" />
               </a>
               <a
                 href="https://www.instagram.com/rohit.____2/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img src={Instagramicon} alt="" className="link" />
+                <img src={instagramicon} alt="" className="link" />
               </a>
             </div>
           </form>
