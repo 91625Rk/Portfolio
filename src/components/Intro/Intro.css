@@ -11,8 +11,8 @@
     aspect-ratio: 1;
     position: absolute;
     border-radius: 50%;
-    top: 50%;
-    left: 70%;
+    top: 21%;
+    left: 50%;
     transform: translate(-50%, -50%);
     object-fit: cover;
 
@@ -23,7 +23,7 @@
 
 }
 .intro-img:nth-child(2){
-    width: 29rem;
+    width: 28rem;
     background-color: #e0c071fb;
     background-image: url(../../assets/profile.png);
     background-size: cover;
