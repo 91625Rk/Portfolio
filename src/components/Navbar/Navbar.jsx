@@ -36,7 +36,7 @@ const Navbar = () => {
             offset={-50}
             smooth={true}
             duration={500}
-            className="menulist"data-aos="fade-down" data-aos-delay="800"
+            className="menulist"data-aos="fade-slide  " data-aos-delay="500"
           >
             About
           </Link>

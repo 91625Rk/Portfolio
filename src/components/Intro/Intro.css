@@ -96,6 +96,7 @@
         align-items: center;
         overflow: hidden;
         margin-left: 30px;
+        
     }
     .introcontent{
         width: 100%;
@@ -122,9 +123,9 @@
         top: 50%;
     }
     .intro-img:nth-child(2){
-        width: 15rem;
-        left: 70%;
-        top: 30%;
+        width: 20rem;
+        left: 50%;
+        top: 20%;
     }
     .btn{
         padding: 0.5rem 1rem;

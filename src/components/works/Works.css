@@ -35,11 +35,11 @@
     transition: transform 0.4 ease, box shadow 0.4s ease;
 }
 .workimg:hover{
-    height: 22rem;
+    /* height: 22rem; */
     
    transform: scale(1.05);
      box-shadow: 0 13px 20px rgb(255, 152, 35);
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 .worksbtn{
     background-color: white;

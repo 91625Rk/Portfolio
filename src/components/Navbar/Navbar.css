@@ -58,10 +58,10 @@ transition: 1.5s;
 }
 @media only screen and (max-width: 768px) {
  .navbar {
-        flex-direction: column;
-        height: auto;
+        /* flex-direction: column; */
+        /* height: auto;
         padding: 1rem;
-        align-items: flex-start;
+        align-items: flex-start; */
      
     }
 

@@ -18,14 +18,14 @@ const Works = () => {
         I take pride in paying attention to the smallest details and making sure that my work is pixel perfect. I am excited to bring my skills and experiences to help businesses achieve their goals and create a strong online presence.
        </span>
        <div className="workimgs">
-        <img src={portfolio1} alt="img1" className='workimg' data-aos="fade-right" data-aos-delay="650"/>
+        <img src={portfolio1} alt="img1" className='workimg' data-aos="fade-right" data-aos-delay="750"/>
         <img src={portfolio2} alt="img2" className='workimg'  data-aos="zoom-in-up" data-aos-delay="650"/>
-        <img src={portfolio3} alt="img3" className='workimg'data-aos="fade-left" data-aos-delay="650"/>
-        <img src={portfolio4} alt="img4" className='workimg' data-aos="fade-right" data-aos-delay="650"/>
+        <img src={portfolio3} alt="img3" className='workimg'data-aos="fade-left" data-aos-delay="750"/>
+        <img src={portfolio4} alt="img4" className='workimg' data-aos="fade-right" data-aos-delay="750"/>
         <img src={portfolio5} alt="img5" className='workimg' data-aos="zoom-in-up" data-aos-delay="650"/>
-        <img src={portfolio6} alt="img6" className='workimg'data-aos="fade-left" data-aos-delay="650"/>
+        <img src={portfolio6} alt="img6" className='workimg'data-aos="fade-left" data-aos-delay="750"/>
        </div>
-        <button className="worksbtn" data-aos="fade-up" data-aos-delay="500">See more</button>
+        <button className="worksbtn" data-aos="fade-up" data-aos-delay="600">See more</button>
             </section>
     </div>
   )
